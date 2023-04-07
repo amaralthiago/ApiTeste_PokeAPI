@@ -20,6 +20,8 @@
                 Console.WriteLine($"Altura: {pokemon.height}");
                 Console.WriteLine($"Ordem: {pokemon.order}");
                 Console.WriteLine($"Peso: {pokemon.weight}lbs");
+                Console.WriteLine("Pressione enter para encerrar...");
+                Console.ReadLine();
             }
             else
             {
