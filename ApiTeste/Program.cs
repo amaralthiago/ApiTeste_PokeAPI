@@ -4,7 +4,7 @@
     {
         public static async Task Main(string[] args)
         {
-            Console.WriteLine("Informe o id do Pokemon: ");
+            Console.WriteLine("Informe o id ou nome do Pokemon: ");
             string value = Console.ReadLine();
 
             PokeAPIServices pokeAPIServices = new PokeAPIServices();
